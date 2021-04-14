@@ -1,7 +1,7 @@
 import React from "react"
-import logo from "./logo.svg"
 import "./App.css"
 import About from "./pages/about/about"
+import Faq from "./pages/faq/faq"
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
           I'm a software engineer from the UK. Welcome to my personal website.
         </div>
         <About />
+        <Faq />
       </header>
     </div>
   )
