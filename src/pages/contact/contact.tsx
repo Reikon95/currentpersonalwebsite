@@ -18,7 +18,9 @@ export default function Contact() {
   return (
     <>
       <h2>Contact Me</h2>
-
+      This is the best way to get in touch with me, and will alert you whenever
+      I am on the market! If you want to email me about anything else, you can
+      reach me here.
       <form onSubmit={handleSubmit(onSubmit)}>
         {/* register your input into the hook by invoking the "register" function */}
         <input defaultValue="test" {...register("example")} />

@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css"
 import About from "./pages/about/about"
+import Contact from "./pages/contact/contact"
 import Faq from "./pages/faq/faq"
 
 function App() {
@@ -11,9 +12,14 @@ function App() {
         <div>
           I'm a software engineer from the UK. Welcome to my personal website.
         </div>
-        <About />
-        <Faq />
+        <div>Scroll down to learn more!</div>
+        <div className="tea-text">
+          TLDR: I input cups of tea, output Javascript.
+        </div>
       </header>
+      <About />
+      <Faq />
+      <Contact />
     </div>
   )
 }

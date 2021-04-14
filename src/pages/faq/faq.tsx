@@ -9,6 +9,7 @@ import Mailchimp from "react-mailchimp-form"
 export default function Faq() {
   return (
     <>
+      <h3>Frequently Asked Questions</h3>
       <Accordion>
         <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
           <Typography>
@@ -18,6 +19,17 @@ export default function Faq() {
         <AccordionDetails>
           <Typography>
             HTML, CSS, Javascript (React, Node, Angular) and Python.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
+          <Typography>What kind of jobs can you do?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Front end or full stack developer/software engineer jobs, using
+            Javascript and/or Python.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -41,7 +53,30 @@ export default function Faq() {
         <AccordionDetails>
           <Typography>
             Please email me if you want to arrange a call, as I'm probably
-            coding!
+            coding! Don't try the witheld number tactics, I worked in
+            recruitment myself I know all the tricks ;)
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary aria-controls="panel2a-content" id="panel2a-header">
+          <Typography>What are your salary requirements?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            That honestly depends on so many factors (not being difficult, it's
+            the truth), just reach out and ask if I'm looking.
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary aria-controls="panel2a-content" id="panel2a-header">
+          <Typography>What did you use to code this website?</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            Javascript/React. My favourite for getting things up and running
+            very quickly.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -58,8 +93,4 @@ export default function Faq() {
       />
     </>
   )
-
-  //   https://reikon95.us18.list-manage.com/subscribe/post?u=30e725db9a4374200ca835c2b&amp;id=ae05b717ca
-
-  //   https://twitter.us18.list-manage.com/subscribe/post?u=30e725db9a4374200ca835c2b&amp;id=ae05b717ca
 }
