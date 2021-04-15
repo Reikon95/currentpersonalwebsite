@@ -2,7 +2,7 @@ import React from "react"
 import "./about.css"
 export default function About() {
   return (
-    <div className="section-wrapper about-wrapper">
+    <div className="section-wrapper about-wrapper" id="about">
       <h2>About Me</h2>
       <div>
         Born in Germany, I moved around a fair bit as a kid, eventually settling

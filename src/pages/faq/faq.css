@@ -1,3 +1,7 @@
 .faq-wrapper {
-  background-color: yellow;
+  background-color: #282c34;
+}
+
+.accordian-group {
+  width: 70vw;
 }

@@ -10,10 +10,21 @@ function App() {
     <div className="App">
       <AppBar position="fixed">
         <Toolbar>
-          <MenuItem>Hello World</MenuItem>
+          <MenuItem>
+            <a href="#home">Home</a>
+          </MenuItem>
+          <MenuItem>
+            <a href="#about">About Me</a>
+          </MenuItem>
+          <MenuItem>
+            <a href="#faq">FAQ</a>
+          </MenuItem>
+          <MenuItem>
+            <a href="#contact">Contact Me</a>
+          </MenuItem>
         </Toolbar>
       </AppBar>
-      <header className="App-header">
+      <header className="App-header" id="home">
         <div>Hi, I'm Cam! 👋</div>
         <div>
           I'm a software engineer from the UK. Welcome to my personal website.
