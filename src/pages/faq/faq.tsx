@@ -4,11 +4,11 @@ import AccordionSummary from "@material-ui/core/AccordionSummary"
 import AccordionDetails from "@material-ui/core/AccordionDetails"
 import Typography from "@material-ui/core/Typography"
 // import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
-import Mailchimp from "react-mailchimp-form"
+import "./faq.css"
 
 export default function Faq() {
   return (
-    <>
+    <div className="section-wrapper faq-wrapper">
       <h3>Frequently Asked Questions</h3>
       <Accordion>
         <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
@@ -18,7 +18,7 @@ export default function Faq() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            HTML, CSS, Javascript (React, Node, Angular) and Python.
+            HTML, CSS, Typescript, Javascript (React, Node, Angular) and Python.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -75,22 +75,11 @@ export default function Faq() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Javascript/React. My favourite for getting things up and running
+            Typescript/React. My favourite for getting things up and running
             very quickly.
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Mailchimp
-        action="https://reikon95.us18.list-manage.com/subscribe/post?u=30e725db9a4374200ca835c2b&amp;id=ae05b717ca"
-        fields={[
-          {
-            name: "EMAIL",
-            placeholder: "Email",
-            type: "email",
-            required: true,
-          },
-        ]}
-      />
-    </>
+    </div>
   )
 }
