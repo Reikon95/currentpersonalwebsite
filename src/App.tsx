@@ -8,7 +8,7 @@ import Footer from "./pages/footer/footer"
 function App() {
   return (
     <div className="App">
-      <AppBar position="fixed">
+      <AppBar position="fixed" className="navbar">
         <Toolbar>
           <MenuItem>
             <a href="#home">Home</a>
@@ -25,14 +25,11 @@ function App() {
         </Toolbar>
       </AppBar>
       <header className="App-header" id="home">
-        <div>Hi, I'm Cam! 👋</div>
+        <div className="lead-text">Hi, I'm Cam! 👋</div>
         <div>
           I'm a software engineer from the UK. Welcome to my personal website.
         </div>
         <div>Scroll down to learn more!</div>
-        <div className="tea-text">
-          TLDR: I input cups of Yorkshire tea, I output Javascript.
-        </div>
       </header>
       <About />
       <Faq />

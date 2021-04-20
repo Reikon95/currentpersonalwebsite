@@ -3,30 +3,20 @@ import "./about.css"
 export default function About() {
   return (
     <div className="section-wrapper about-wrapper" id="about">
-      <h2>About Me</h2>
+      <h2>My Career</h2>
       <div>
-        Born in Germany, I moved around a fair bit as a kid, eventually settling
-        in the suburbs of London. I've now lived in various parts of the capital
-        for the past 15 years, making me the most English sounding Scot you'll
-        ever encounter - though when rugby's on, there's no doubt of my origins!{" "}
+        2016 - Graduated University of Birmingham with a degree in Business
+        Management
       </div>
       <div>
-        I started learning to code in 2018 inspired by conversations with
-        candidates throughout my career in technical recruitment. During a stint
-        at ThirdEye Labs as their talent acquisition manager, they offered me
-        the chance to be an engineer part time. After loving this experience, I
-        attended Kodiri to firm up on my MERN stack skills.
+        2016-2018 - Worked in various recruitment roles, and taught myself to
+        code at night
       </div>
       <div>
-        I've since spent some time working for a FinTech startup, before moving
-        onto my current role at M2A Media, where I work on cloud-based video
-        solutions for multiple high profile clients!
+        2019 - Undertook an internship at ThirdEye Labs alongside my role as
+        talent acquisition manager and attended the Kodiri React course.
       </div>
-      <div>
-        When I'm not working, you can find me playing ice hockey or rugby,
-        learning the latest javascript framework, or going on holiday to
-        somewhere with interesting animals!
-      </div>
+      <div>2020 - Started commercially working as a javascript developer!</div>
     </div>
   )
 }

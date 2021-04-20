@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #171738;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +30,12 @@
 a {
   text-decoration: none;
   color: white;
+}
+
+.lead-text {
+  font-size: 3rem;
+}
+
+.navbar {
+  background-color: #593c8f !important;
 }
