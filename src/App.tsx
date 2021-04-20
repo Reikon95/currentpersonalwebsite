@@ -5,6 +5,7 @@ import About from "./pages/about/about"
 import Contact from "./pages/contact/contact"
 import Faq from "./pages/faq/faq"
 import Footer from "./pages/footer/footer"
+import Portfolio from "./pages/portfolio/portfolio"
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,7 @@ function App() {
         <div>Scroll down to learn more!</div>
       </header>
       <About />
+      <Portfolio />
       <Faq />
       <Contact />
       <Footer />
