@@ -16,7 +16,7 @@ export default function Portfolio() {
           </a>
           Passcode Generator
         </div>
-        <div>Angular To-Do List</div>
+        <div>Discoverr</div>
         <div>Weather Checker</div>
         <div>Project Euler</div>
       </div>
