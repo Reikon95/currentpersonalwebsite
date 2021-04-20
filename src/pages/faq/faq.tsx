@@ -83,6 +83,18 @@ export default function Faq() {
             </Typography>
           </AccordionDetails>
         </Accordion>
+        <Accordion>
+          <AccordionSummary aria-controls="panel2a-content" id="panel2a-header">
+            <Typography>What are you learning at the moment?</Typography>
+          </AccordionSummary>
+          <AccordionDetails>
+            <Typography>
+              I'm always keeping up to date with the latest Javascript and
+              Typescript developments and deepening my knowledge. I'm also
+              working on cloud infrastructure a lot, primarily using AWS.
+            </Typography>
+          </AccordionDetails>
+        </Accordion>
       </div>
     </div>
   )
